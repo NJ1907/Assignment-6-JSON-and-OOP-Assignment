@@ -1,0 +1,47 @@
+JSON File
+
+{
+    "employee": [
+ 
+       {
+          "Name": "Amit Jha",
+          "DOB": "20/Jan/1991",
+          "Height": "6'1",
+          "City":"Surat",
+          "State":"Gujarat"
+       },
+ 
+       {
+        "Name": "Muskan Singhal",
+        "DOB": "8/Jul/1994",
+        "Height": "5'4",
+        "City":"Bangalore",
+        "State":"Karnataka"
+       },
+
+       {
+        "Name": "Rahul Kumar",
+        "DOB": "23/dec/1994",
+        "Height": "5'8",
+        "City":"Noida",
+        "State":"Uttar Pradesh"
+       },
+
+       {
+        "Name": "Ammar Lakdawala",
+        "DOB": "4/Nov/1996",
+        "Height": "5'7",
+        "City":"Pune",
+        "State":"Maharashtra"
+       },
+
+       {
+        "Name": "Shubham Sharma",
+        "DOB": "1/Jan/1995",
+        "Height": "6'0",
+        "City":"Bikaner",
+        "State":"Rajasthan"
+       }
+    ]
+ }
+
