@@ -1,0 +1,19 @@
+# Assignment submission by Nitish Jha
+
+import json
+
+capitals = {
+
+    "Gujarat": "Gandhinagar",
+    "Assam":"Dispur",
+    "Tamil Nadu":"Chennai",
+    "Bihar":"Patna",
+    "Madhya Pradesh":"Bhopal",
+    "Rajasthan":"Jaipur",
+    "Karnataka":"Bangalore"
+    
+    }
+
+with open(r"D:\Nitish Problem & Solutions\readme.json","w") as f:
+
+    json.dump(capitals,f)
