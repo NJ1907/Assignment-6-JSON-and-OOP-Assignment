@@ -1,4 +1,4 @@
-JSON File
+# JSON File
 
 {
     "employee": [
@@ -45,3 +45,13 @@ JSON File
     ]
  }
 
+#Python programme to read the JSON file
+
+import json
+
+file=open("employee.json","r")
+x = file.read()
+finaldata = json.loads(x)
+
+for a in finaldata:
+    print(a)
