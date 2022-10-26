@@ -1,0 +1,40 @@
+#Assignment submission by Nitish Jha
+
+class dog:
+    def __init__(self,name,age,coat_color):
+        self.name = name
+        self.age = age
+        self.coat_color = coat_color
+    
+    def description(self):
+        return f"{self.name} is {self.age} years old"
+
+    def getinfo(self):
+        return f"The coat color is {self.coat_color}"
+
+class JackRussellTerrier(dog):
+    def sound(self,sound="Bhow Bhow"):
+        return f"{self.name} says {sound}"
+    
+    def collar(self,collar="Black"):
+        return f"{self.name} has a {collar} collar"
+
+class BullDog(dog):
+    def sound(self,sound="Woof Woof"):
+        return f"{self.name} says {sound}"
+    
+    def collar(self,collar="Navy Blue"):
+        return f"{self.name} has a {collar} collar"
+    
+    
+obj = JackRussellTerrier("Tojo","6","Brown")
+print(obj.description())    
+print(obj.getinfo())
+print(obj.sound())
+print(obj.collar())
+
+obj1 = BullDog("Baburao","4","White")
+print(obj1.description())    
+print(obj1.getinfo())
+print(obj1.sound())
+print(obj1.collar())
